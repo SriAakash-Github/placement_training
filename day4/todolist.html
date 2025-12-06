@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-Do List</title>
+    </head>
+<body>
+    <input type="text" id="txtData" placeholder="please enter your task">
+    <button onclick="todoList()"> AddTaskToDo</button>
+    <ul id="to_do_list"> </ul>
+    <script>
+        function todoList() {
+            const myTask = document.getElementById("txtData");
+            const addToDoList = document.getElementById("to_do_list");
+            let originalValue = `<li> ${myTask.value} </li>`;
+            myTask.value = '';
+            addToDoList.insertAdjacentHTML("beforeend", originalValue);
+        }
+    </script>
+</body>
+</html>
+
