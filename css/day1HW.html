@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DAY 1 - Shareable (no labels)</title>
+</head>
+<body>
+  <form>
+    <p>Enter the password</p>
+    <input type="password" id="password" name="password" placeholder="">
+
+    <p>Enter your surname</p>
+    <input type="text" id="surname" name="surname" value="Sukuru">
+
+    <p>Address:</p>
+    <textarea id="address" name="address" placeholder="Enter your address" rows="6" cols="60"></textarea>
+
+    <fieldset>
+      <legend>Select the training programs attended:</legend>
+      <input type="checkbox" id="cobol" name="programs" value="cobol"> COBOL<br>
+      <input type="checkbox" id="idms" name="programs" value="idms" checked> IDMS<br>
+      <input type="checkbox" id="java" name="programs" value="java"> Java<br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Select the group you belong to:</legend>
+      <input type="radio" id="group1" name="group" value="group1"> Group 1<br>
+      <input type="radio" id="group2" name="group" value="group2" checked> Group 2<br>
+      <input type="radio" id="group3" name="group" value="group3"> Group 3<br>
+      <input type="radio" id="others" name="group" value="others"> Others<br>
+    </fieldset>
+
+    <p>Which training program would you like to attend?</p>
+    <select id="training-program" name="training-program">
+      <option value="javascript" selected>JavaScript</option>
+      <option value="python">Python</option>
+      <option value="java">Java</option>
+      <option value="c">C</option>
+      <option value="cpp">C++</option>
+    </select>
+
+    <p>
+      <input type="file" id="fileInput">
+    </p>
+
+    <p>
+      <button type="button">Exit</button>
+      <button type="submit">Save</button>
+      <button type="reset">Reset</button>
+    </p>
+  </form>
+
+  </body>
+</html>

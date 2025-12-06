@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    
+    <form>
+        <fieldset>
+            <legend>Candidate Information</legend>
+            
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName">
+            <br><br>
+            
+            <label for="middleName">Middle Name:</label>
+            <input type="text" id="middleName">
+            <br><br>
+            
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName">
+            <br><br>
+            
+            <label for="gender">Gender:</label>
+            <select id="gender">
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+            
+            <label>Married:</label><br>
+            <input type="radio" id="marriedYes" value="yes">
+            <label for="marriedYes">Yes</label><br>
+            <input type="radio" id="marriedNo" value="no">
+            <label for="marriedNo">No</label>
+            <br><br>
+            
+            <label for="phone">Phone:</label>
+            <input type="text" value="+91" id="countryCode" size="5">
+            <input type="text" id="phone">
+            <br><br>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" placeholder="dd-mm-yyyy">
+            <br><br>
+            
+            <label for="bloodGroup">Blood Group:</label>
+            <select id="bloodGroup">
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select>
+            <br><br>
+            
+            <label for="address">Address:</label>
+            <textarea id="address" rows="3" cols="30"></textarea>
+            <br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+            <br><br>
+            
+            <label for="caste">Caste:</label>
+            <input type="text" id="caste">
+            <br><br>
+            
+            <label for="category">Category:</label>
+            <input type="text" id="category">
+            <br><br>
+            
+            <label for="nationality">Nationality:</label>
+            <input type="text" id="nationality">
+            <br><br>
+            
+            <label for="course">Course:</label>
+            <select id="course">
+                <option value="cse">Computer Science Engineering</option>
+                <option value="ece">Electronics and Communication</option>
+                <option value="me">Mechanical Engineering</option>
+                <option value="ce">Civil Engineering</option>
+            </select>
+            <br><br>
+            
+            <label>Languages/Skills:</label><br>
+            <input type="checkbox" id="telugu" value="telugu">
+            <label for="telugu">Telugu</label><br>
+            <input type="checkbox" id="english" value="english">
+            <label for="english">English</label><br>
+            <input type="checkbox" id="hindi" value="hindi">
+            <label for="hindi">Hindi</label>
+            <br><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Qualification Details</legend>
+            
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+                <tr>
+                    <td>10th</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>12th</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Parent Information</legend>
+            
+            <label for="fatherName">Father Name:</label>
+            <input type="text" id="fatherName">
+            <br><br>
+            
+            <label for="education">Education:</label>
+            <input type="text" id="education">
+            <br><br>
+            
+            <label for="relationWithStudent">Relation with Student:</label>
+            <input type="text" id="relationWithStudent">
+            <br><br>
+            
+            <label for="jobType">Job Type:</label>
+            <select id="jobType">
+                <option value="">Job Type</option>
+                <option value="government">Government</option>
+                <option value="private">Private</option>
+                <option value="business">Business</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+            
+            <label for="annualIncome">Annual Income:</label>
+            <input type="text" id="annualIncome">
+            <br><br>
+            
+            <label for="contactNo">Contact No:</label>
+            <input type="text" value="+91" id="parentCountryCode" size="5">
+            <input type="text" id="contactNo">
+            <br><br>
+            
+            <label for="parentEmail">E-mail:</label>
+            <input type="email" id="parentEmail">
+            <br><br>
+        </fieldset>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

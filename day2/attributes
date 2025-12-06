@@ -1,0 +1,16 @@
+Common generic Attributes
+    -align
+    -valign
+    -bgcolor
+    -background
+    -Id
+    -Class
+    -Width
+    -height
+    -Title
+
+Core Attributes
+    -Id ~ Unique Identifier 
+    -Class
+    -Title
+    -Style

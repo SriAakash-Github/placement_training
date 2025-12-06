@@ -1,0 +1,21 @@
+INPUT TYPES
+number 
+range
+search
+tel
+time
+url
+week
+
+CSS Box model
+
+boxes has a content area and optional surrounding padding bordrer and margin areas.
+
+Height and widhth
+padding
+border
+margin
+
+css media queries allow us to cusmotize styling based on browsers and os
+
+Flexbox rows and column to layout and align conten

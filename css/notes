@@ -1,0 +1,4 @@
+Types of style sheets
+inline style sheets - directly within an HTML element
+external  style sheets - seperate css file linked using link tag
+internal style sheets - within the head section using style tag

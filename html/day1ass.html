@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DAY 1 Assingment</title>
+</head>
+<body>
+    <form>
+        <label for="password">Enter the password</label>
+        <input type="password" id="password" name="password" placeholder="•••">
+        
+        <label for="surname">Enter your surname</label>
+        <input type="text" id="surname" name="surname" value="">
+        <br>
+        <br>
+        
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" placeholder="Enter ur address" rows="8" cols="60"></textarea>
+
+        <br>
+        <br>
+        
+        <fieldset>
+            <legend>Select the training programs attended:</legend>
+            <input type="checkbox" id="cobol" name="programs" value="cobol">
+            <label for="cobol">COBOL</label>
+            
+            <input type="checkbox" id="idms" name="programs" value="idms" checked>
+            <label for="idms">IDMS</label>
+            
+            <input type="checkbox" id="java" name="programs" value="java">
+            <label for="java">Java</label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Select the group you belong to:</legend>
+            <input type="radio" id="group1" name="group" value="group1">
+            <label for="group1">Group 1</label>
+            
+            <input type="radio" id="group2" name="group" value="group2" checked>
+            <label for="group2">Group 2</label>
+            
+            <input type="radio" id="group3" name="group" value="group3">
+            <label for="group3">Group 3</label>
+            
+            <input type="radio" id="others" name="group" value="others">
+            <label for="others">Others</label>
+        </fieldset>
+        
+        <label for="training-program">Which training program would you like to attend?</label>
+        <select id="training-program" name="training-program">
+            <option value="javascript" selected>JavaScript</option>
+            <option value="python">Python</option>
+            <option value="react">React</option>
+            <option value="nodejs">Node.js</option>
+            <option value="Java">Java</option>
+            <option value="C++">C++</option>
+        </select>
+        
+        <button type="button">Browse</button>
+        
+        <div>
+            <button type="button">Exit</button>
+            <button type="submit">Save</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>

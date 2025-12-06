@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+</head>
+<body>
+    <button id="mybtn">CLick me</button>
+    <script>
+        function firstfunction(){
+            alert(" first fucntion Button Clicked");
+        }
+
+        function secondfunction(){
+            alert(" second fucntion Button Clicked");
+        }
+
+        var btn = document.getElementById("mybtn");
+        // btn.onclick = firstfunction;
+        // btn.onclick = secondfunction;
+
+        btn.addEventListener('click', firstfunction);
+        btn.addEventListener('click', secondfunction);
+
+    </script>
+</body>
+</html>

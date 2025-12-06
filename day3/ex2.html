@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JavaScript Example </title>
+        <script src="script.js"></script>
+    <style>
+        input[type="email"]:valid{
+            outline: 2px solid green;
+        }
+
+        input[type="email"]:invalid{
+            outline: 2px solid red;
+        }
+    </style>
+    </head>
+<body>
+    <form>
+    <button type="button" onclick="myName()">Click Me!</button><br><br>
+    <button type="button" onclick="getValue()">Enter Name</button>
+    <p id="demo"> your name </p>
+    <button type="button" onclick="getValue2()">your name will be displayed above</button><br><br>
+
+
+    <input type="color" id="mycolor"  value="#ff0000">
+    <button type="button" onclick="getColor()">Get Color</button><br><br>
+
+    <input type="date" id="mydate" value="2025-04-15">
+    <button type="button" onclick="getDate()">get date</button><br><br>
+
+    <input type="datetime-local" id="mydatetime" value ="2025-04-15 10:30">
+    <button type="button" onclick="getDateTime()">get date and time</button>
+
+    <br><br>
+
+    Enter Your email  <input type="email" id="myemail" required>
+    <button type="button" onclick="getEmail()">get email</button>
+
+    <br><br>
+
+    <input type="month" id="mymonth" value="05-2025">
+    <button type="button" onclick="getMonth()">get month</button>
+    
+    </form>
+
+    <br><br>
+
+    <h2>Video Example</h2>
+
+    <video width="400" height="400" controls>
+        <source src="nature_video.mp4" type="video/mp4">
+    </video>
+    <br><br>
+
+    <h2>Audio Example</h2>
+    <audio controls>
+        <source src="Oorum_Blood.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio controls>
+        <source src="dude.mp3" type="audio/mpeg">
+    </audio>
+
+    <br><br>
+
+    <p> Range Input Example </p>
+    <input type="range" id="myrange" min="0" max="100" value="50">
+    <button type="button" onclick="getRange()">get range value</button>
+
+    <p> input time Example</p>
+    <input type="time" id="mytime" value="12:00">
+    <button type="button" onclick="getTime()">get time value</button>
+    <br><br>
+
+    <input type="search" id="mysearch" value="Search here">
+    <button type="button" onclick="getsearch()">get search value</button>
+
+    <br><br>
+
+    <input type="tel" id="mytel" value="1234567890">
+    <button type="button" onclick="getTel()">get tel value</button>
+
+    <br><br>
+
+    <input type="url" id="myurl" value="https://www.example.com">
+    <button type="button" onclick="getUrl()">get url value</button>
+
+    <br><br>
+
+    <input type="week" id="myweek" value="2025-W20">
+    <button type="button" onclick="getWeek()">get week value</button>
+
+</body>
+</html>
