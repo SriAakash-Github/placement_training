@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Day 5 Exercise 1</title>
+</head>
+<body>
+    <script>
+        class Car {
+            constructor(name){
+                this.brand = name;
+            }
+
+        present() {
+            return 'i have a' + " " + this.brand;
+        }
+
+    }
+
+class Model extends Car {
+    constructor(name, model) {
+        super(name);
+        this.model = model;
+    }
+    show() {
+        return this.present() + " " +"it is the " + " " + this.model + " " + "model";
+    }
+}
+
+const mycar = new Model("Audi", "A4");
+        document.write(mycar.show());
+    </script>
+</body>
+</html>
