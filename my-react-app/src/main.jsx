@@ -8,17 +8,35 @@ import App from './App.jsx'
 //     <App />
 //   </StrictMode>,
 // )
-const myElement = (<ul>
-  <li>BMW</li>
-  <li>AUDI</li>
-  <li>BENZ</li>
-</ul>
-);
-createRoot(document.getElementById('root')).render(myElement
-)
 
-createRoot(document.getElementById('root2')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+function Car() {
+  const brand = 'BMW';
+  const model ="M3";
+  return (
+    <>
+    <h2>{brand} {model}</h2>
+    </>
+  );
+}
+
+createRoot(document.getElementById('root2')).render(<Car />
 )
+//   <li>BENZ</li>
+// </ul>
+// );
+// createRoot(document.getElementById('root')).render(myElement
+// )
+
+// createRoot(document.getElementById('root2')).render(
+//   <StrictMode>
+//     <App />
+//   </StrictMode>,
+// )
+
+
+
+// createRoot(document.getElementById('root')).render(
+//     <StrictMode>
+//         <Car />
+//     </StrictMode>,
+// )

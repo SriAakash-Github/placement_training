@@ -39,13 +39,22 @@ import './App.css'
 function App() {
   return (
     <div className="app">
-      <h1>Hello, User!, Welcome</h1>
-      <img src={reactLogo} className="logo react" alt="React logo" />
+      <h1>BUY ME A BMW</h1>
+      {/* <img src={reactLogo} className="logo react" alt="React logo" /> */}
       <img src={aadhithimg} className="logo aadhith" alt="Aadhith logo" />
     </div>
   )
 }
 
+// function Car() {
+//     return (
+//     <>
+//     <h2>BUY ME A BMW</h2>
+//     </>
+//     );
+// }
+
 // const MyComponent = () => { return ( <div> <img src={myImage} alt="My Image" /> </div> ); }
 
 export default App
+// export { Car }
