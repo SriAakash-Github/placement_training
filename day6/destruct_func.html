@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destructuring Functions</title>
+</head>
+<body>
+    <script>
+        function calculate({ a, b }) {
+            const add = a+ b;
+            const subtract = a - b;
+            const multiply = a * b;
+            const divide = a / b;
+            return { add, subtract, multiply, divide };
+        }
+        const { add, subtract, multiply, divide } =  calculate({ a: 4, b: 7 });
+        document.write("<p>Sum: " + add + "</p>");
+        document.write("<p>Subtraction: " + subtract + "</p>");
+        document.write("<p>Multiplication: " + multiply + "</p>");
+        document.write("<p>Division: " + divide + "</p>");
+    </script>
+    
+</body>
+</html>
