@@ -1,0 +1,6 @@
+Garbage Collect:
+java uses an automatic memory management system called a Garbage Collecter
+
+Memory:
+Stack Memory - variables are stored -  LIFO
+heap Memory - objects are stored
