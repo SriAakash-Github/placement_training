@@ -1,0 +1,7 @@
+class has these components:
+    fields (also known as attributes or properties)
+    methods (also known as functions or procedures)
+    constructors (special methods for initializing objects)
+    static blocks (used for static initialization)
+    nested classes and interfaces (classes defined within other classes)
+    access modifiers (public, private, protected, default)

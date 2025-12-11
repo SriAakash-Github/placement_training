@@ -13,7 +13,7 @@ function App() {
         <img src={aadhith2} className="logo aadhith" alt="Aadhith logo" height={200} width={300} />
       </div>
       <div className="aadhi">
-        <h1>I am Aadhith</h1>
+        <h1>This is Aadhith</h1>
       </div>
     </>
   )
