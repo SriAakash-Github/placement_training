@@ -6,8 +6,12 @@ public class loops {
         int n = scanner.nextInt();
         System.out.println("enter the ending number:");
         int m = scanner.nextInt();
-        for (int i = n; i <= m; i++) {
-            System.out.println("Iteration: " + i);
+        if(n < m){
+            for(int i = n; i <= m; i++) {
+                System.out.println("Iteration: " + i);
+            }
+        } else {
+            System.out.println("Invalid range. Starting number should be less than ending number.");
         }
         scanner.close();
     }
