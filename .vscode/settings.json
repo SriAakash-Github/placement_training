@@ -1,4 +1,11 @@
 {
     "liveServer.settings.port": 5501,
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "javaprograms",
+        "day9",
+        "day8",
+        "day7/java",
+        "SpringTraining/springtry/src/main/java/com/springstartup/springtry"
+    ]
 }

@@ -27,6 +27,8 @@ public class arr {
             if (numbers[i] % 2 != 0) {
             System.out.println(numbers[i] + " ");
         }   
+
+        
     
     
     }

@@ -7,7 +7,7 @@ class Rectangle implements polygon {
         System.out.println("Area of Rectangle: " + (length * breadth));
     }
 }
-class InterfaceExample {
+class InterfaceExample{
     public static void main(String[] args) {
         Rectangle r = new Rectangle();
         r.getArea(5, 10);

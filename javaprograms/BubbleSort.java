@@ -33,5 +33,6 @@ public class BubbleSort {
         bubblesort(arr);
         System.out.println("Sorted array:");
         printArray(arr);
+        scanner.close();
     }
 }
